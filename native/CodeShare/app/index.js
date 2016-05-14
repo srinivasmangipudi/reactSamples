@@ -2,6 +2,7 @@
 
 import React, { Component, View, Text, StyleSheet, Platform } from 'react-native';
 import Tabs from 'react-native-tabs';
+import Button from './components/button';
 
 export default class CodeShare extends Component {
   constructor(props) {
@@ -31,6 +32,7 @@ export default class CodeShare extends Component {
 
           <Text>CodeSharing App</Text>
           <Text>{page}</Text>
+          <Button text="Click Me!" />
         </View>
       )
     }
