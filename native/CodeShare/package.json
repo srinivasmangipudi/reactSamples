@@ -9,6 +9,8 @@
     "react": "^0.14.8",
     "react-mixin": "^2.0.2",
     "react-native": "^0.25.1",
-    "react-native-tabs": "^1.0.7"
+    "react-native-tabs": "^1.0.7",
+    "firebase": "^2.4.2",
+    "reactfire": "^0.7.0"
   }
 }
